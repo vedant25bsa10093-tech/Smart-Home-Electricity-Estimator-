@@ -1,6 +1,6 @@
 # Smart Home Electricity Usage Estimator
 
-The **Smart Home Electricity Usage Estimator** is a beginner-friendly Python project designed to help users understand how much electricity their household appliances consume. By entering the power rating and daily usage of each appliance, this tool calculates energy consumption, estimates monthly electricity bills, identifies high-consumption devices, and encourages energy-saving habits. The project is simple, practical, and perfect for students, hobbyists, and anyone who wants better control over their electricity usage.
+The **Smart Home Electricity Usage Estimator** is a beginner friendly Python project designed to help users understand how much electricity their household appliances consume. By entering the power rating and daily usage of each appliance, this tool calculates energy consumption, estimates monthly electricity bills, identifies high consumption devices, and encourages energy saving habits. The project is simple, practical, and perfect for students, hobbyists, and anyone who wants better control over their electricity usage.
 
 ---
 
@@ -13,8 +13,8 @@ The **Smart Home Electricity Usage Estimator** is a beginner-friendly Python pro
   - Monthly consumption (kWh × 30 days)
   - Estimated electricity bill (₹)
 - Identifies the appliance that consumes the most energy
-- Clean, menu-based interactive system
-- Beginner-friendly code with clear structure
+- Clean, menu based interactive system
+- Beginner friendly code with clear structure
 - No external dependencies — runs using core Python only
 
 ---
@@ -25,11 +25,11 @@ Electricity bills can be confusing, and most households don’t know which appli
 This project solves that by providing:
 
 - Simple & accurate consumption estimates  
-- Awareness about high-energy devices  
+- Awareness about high energy devices  
 - A tool to track electricity usage  
-- A practical real-world mini-project ideal for college submissions  
+- A practical real world mini project ideal for college submissions  
 
-This is not just an assignment-level project — it is actually useful in real life.
+This is not just an assignment level project — it is actually useful in real life.
 
 ---
 
@@ -91,11 +91,11 @@ Highest consuming appliance: Refrigerator (108 kWh/month)
 ## Code Overview 
 
 •	Appliance Class
-Stores name, wattage, hours used, and auto-calculates energy.
+Stores name, wattage, hours used, and auto calculates energy.
 	•	Main Menu Loop
 Allows adding appliances, viewing summary, and generating reports.
 	•	Summary Function
-Displays total usage and highest-consuming appliance.
+Displays total usage and highest consuming appliance.
 	•	Bill Estimation Function
 Takes electricity rate and calculates final cost.
 
