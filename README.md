@@ -36,8 +36,8 @@ This is not just an assignment-level project — it is actually useful in real l
 ##  Project Structure
 
 Smart-Electricity-Estimator/
-|---electricity_estimator.py
-|---README.md
+electricity_estimator.py
+README.md
 
 **electricity_estimator.py**  
 The main program that performs all calculations and provides the menu interface.
@@ -49,19 +49,19 @@ Optional file to store appliance lists.
 
 ##  How the Program Works
 
-### 1️⃣ User Inputs
+### 1. User Inputs
 - Appliance Name  
 - Power Rating (W)  
 - Daily Usage (hours)  
 - Electricity Rate (₹ per kWh)
 
-### 2️⃣ Calculations Performed
+### 2. Calculations Performed
 
 Formula used: Daily Energy (kWh) = (Watt × Hours) / 1000
 Then:Monthly Consumption = Daily Energy × 30
 Estimated Bill = Monthly Consumption × Electricity Rate
 
-### 3️⃣ Output Provided
+### 3. Output Provided
 
 - Total daily consumption  
 - Total monthly consumption  
@@ -70,7 +70,7 @@ Estimated Bill = Monthly Consumption × Electricity Rate
 
 ---
 
-## 🖥️ Example Usage
+## Example Usage
 
 Enter appliance name: Fan
 Power rating (W): 75
@@ -88,7 +88,7 @@ Total monthly consumption: 126 kWh
 Estimated monthly bill: ₹1008
 Highest consuming appliance: Refrigerator (108 kWh/month)
 
-## Code Overview (High-Level)
+## Code Overview 
 
 •	Appliance Class
 Stores name, wattage, hours used, and auto-calculates energy.
