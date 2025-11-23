@@ -77,4 +77,4 @@ Key functions:
 •⁠  ⁠Add tariff slabs and time of use rates
 
 ## 10. Conclusion
-This project provides a simple yet practical tool for everyday users to estimate electricity consumption and make better decisions to reduce bills. It demonstrates the application of basic programming concepts data structures, file I/O, modularization, and arithmetic computations—towards a real world problem.
+This project provides a simple yet practical tool for everyday users to estimate electricity consumption and make better decisions to reduce bills. It demonstrates the application of basic programming concepts data structures, file I/O, modularization, and arithmetic computations towards a real world problem.
