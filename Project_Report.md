@@ -1,4 +1,4 @@
-# 5. `Project_Report.md` (formal report for submission)
+# 5. `Project_Report.md`
 
  ⁠markdown
 # Project Report — Smart Home Electricity Usage Estimator
@@ -7,23 +7,23 @@
 Many households receive monthly electricity bills without understanding which appliances contribute most to the usage and how daily habits influence the bill. This project provides a lightweight estimator to raise awareness and help users reduce costs.
 
 ## 2. Objectives
- 1.⁠ ⁠Calculate per-appliance and total monthly energy consumption (kWh).
- 2.⁠ ⁠Estimate monthly electricity bill using a user-specified rate.
- 3.⁠ ⁠Identify top-consuming appliances and give simple suggestions.
+ 1.⁠ ⁠Calculate per appliance and total monthly energy consumption (kWh).
+ 2.⁠ ⁠Estimate monthly electricity bill using a user specified rate.
+ 3.⁠ ⁠Identify top consuming appliances and give simple suggestions.
  4.⁠ ⁠Provide save/load and report export functionality.
 
 ## 3. Scope and Limitations
-*Scope:* Home users who can enter appliance wattage and estimated daily usage. No real-time monitoring or hardware integration.
+*Scope:* Home users who can enter appliance wattage and estimated daily usage. No real time monitoring or hardware integration.
 
-*Limitations:* Accuracy depends on user-provided data (estimated hours). Does not interface with smart meters.
+*Limitations:* Accuracy depends on user provided data (estimated hours). Does not interface with smart meters.
 
 ## 4. System Design
-### High-level modules
+### High level modules
 •⁠  ⁠*Data model:* ⁠ Appliance ⁠ (name, watt, hours/day)
 •⁠  ⁠*Estimator logic:* computations for kWh and cost
 •⁠  ⁠*Persistence:* JSON save/load
-•⁠  ⁠*Interface:* Console-based menu
-•⁠  ⁠*Reporting:* Plain-text report export
+•⁠  ⁠*Interface:* Console based menu
+•⁠  ⁠*Reporting:* Plain text report export
 
 ### Data structures
 •⁠  ⁠List of ⁠ Appliance ⁠ objects
@@ -56,12 +56,12 @@ Key functions:
  1.⁠ ⁠*Single appliance* — 75W, 10 h/day, rate ₹8
    - Expected monthly kWh: 22.5
    - Expected bill: ₹180
- 2.⁠ ⁠*Multiple appliances* — fridge, fan, LED bulb
+ 2.⁠ ⁠*Multiple appliances* - fridge, fan, LED bulb
    - Validate percentages sum to ~100%
- 3.⁠ ⁠*Empty data* — try summary → prompt to add appliances
+ 3.⁠ ⁠*Empty data* - try summary → prompt to add appliances
 
 ### Edge cases
-•⁠  ⁠Non-numeric input handled by prompting again
+•⁠  ⁠Non numeric input handled by prompting again
 •⁠  ⁠Removing nonexistent appliance returns "Not found"
 
 ## 8. Usage guide
@@ -73,8 +73,8 @@ Key functions:
 ## 9. Future Work
 •⁠  ⁠Add CSV export and simple plotting (matplotlib)
 •⁠  ⁠Add household profiles (multiple rooms)
-•⁠  ⁠Integrate with a smart meter API for real-time data
-•⁠  ⁠Add tariff slabs and time-of-use rates
+•⁠  ⁠Integrate with a smart meter API for real time data
+•⁠  ⁠Add tariff slabs and time of use rates
 
 ## 10. Conclusion
-This project provides a simple yet practical tool for everyday users to estimate electricity consumption and make better decisions to reduce bills. It demonstrates the application of basic programming concepts—data structures, file I/O, modularization, and arithmetic computations—towards a real-world problem.
+This project provides a simple yet practical tool for everyday users to estimate electricity consumption and make better decisions to reduce bills. It demonstrates the application of basic programming concepts data structures, file I/O, modularization, and arithmetic computations—towards a real world problem.
