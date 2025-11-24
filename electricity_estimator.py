@@ -1,6 +1,6 @@
 """
 Smart Home Electricity Usage Estimator
-
+ 
 Features:
 - Add / remove / list appliances (name, wattage, hours per day)
 - Compute per-appliance kWh per month and cost
